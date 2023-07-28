@@ -1,9 +1,10 @@
 package org.aservellon.springcloud.msvc.cursos.models.entity;
 
+import jakarta.persistence.Table;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 import java.util.ArrayList;
 import java.util.List;
 

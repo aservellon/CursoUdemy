@@ -1,7 +1,7 @@
 package org.aservellon.springcloud.msvc.cursos.models.entity;
 
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "cursos_usuarios")

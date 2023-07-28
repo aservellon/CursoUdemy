@@ -1,6 +1,7 @@
 package org.aservellon.springcloud.msvc.cursos.controllers;
 
 import feign.FeignException;
+import jakarta.validation.Valid;
 import org.aservellon.springcloud.msvc.cursos.models.entity.Curso;
 import org.aservellon.springcloud.msvc.cursos.models.entity.Usuario;
 import org.aservellon.springcloud.msvc.cursos.services.CursoService;
@@ -10,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 import java.util.*;
 
 @RestController
